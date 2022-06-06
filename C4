@@ -1,0 +1,33 @@
+Diagramy C4
+
+Diagramy C4 to prosty sposób na zobrazowanie systemu. Prostota jest najważniejsza. Inne narzędzia, takie jak UML mają wysoki próg wejścia. C4 jest jak mapa.
+
+Najważniejsze założenia:
+ - łatwa w zrozumieniu
+ - łatwa w aktualizacji
+ 
+C4 bo Context, Container, Component, Code. Nie jest tu najważniejsza definicja ale separacja różnych poziomów abstrakcji.
+Duże, rozległe diagramy są trudne do zrozumienia. Jest w nich dużo szumu. C4 to zestaw diagramów, każdy na jednym poziomie abstrakcji.
+Tak jak na mapie - kraj -> województwo -> miasto -> ulica.
+Dzięki temu, kiedy szukam informacji o danej "ulicy" nie muszę przedzierać się przez gąszcz informacji związanych z całym "miastem".
+
+Również z perspektywy programisty, takie atomowe zobrazowanie komponentów ułatwia pisanie małych komponentów w kodzie.
+
+C1 - Kontekst
+Kto i po co używa systemu? Jakie i po co są integracje?
+
+C2 - Kontenery
+Kontener to miejsce w którym przechowuje się zestaw komponentów (API), aplikacja mobilna, aplikacja webowa, może być baza danych. Schodzimy krok niżej w szczegółowości.
+Nazwa, odpowiedzialności, komunikacja - kto z kim i po co?
+
+C3 - Komponenty
+Schodzimy krok niżej w Kontener. Zestaw klas, funkcji. 
+Tak samo nazwa, odpowiedzialność, komunikacja - kto z kim i po co? 
+
+C4 - Kod
+Schodzimy krok niżej w Komponent.
+Szczegółowy opis kodu to chyba tylko w wojsku albo NASA. Nie widzę zastosowania w komercyjnym projekcie dla takiego diagramu.
+
+
+Diagram C1 i C2 lajtowo dla osób nietechnicznych.
+C3 i C4 już raczej odbiorca techniczny.
